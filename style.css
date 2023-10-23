@@ -1,0 +1,169 @@
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        rgb(54, 53, 53) 0%,
+        rgb(54, 53, 53) 5%,
+        red 7%,
+        red 92%,
+        rgb(54, 53, 53) 95%,
+        rgb(54, 53, 53) 100%
+    );
+    max-width: 960px;
+    margin: 0 auto;
+}
+#logo {
+    height: 70px;
+    width: 280;
+    float: left;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+header nav {
+    padding: 5px;
+    background-color: rgb(109, 108, 108);
+    box-shadow: 0 0 12px -2px black;
+    align-items: center;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+header nav a {
+    color: rgb(49, 2, 2);
+    font-size: x-large;
+    margin: 0 5px;
+    text-decoration: none;
+    
+}
+header nav h2 {
+    height: 0;
+    text-indent: -10000px;
+}
+header nav li {
+    float: left;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.intro{
+    margin-left: 75px;
+    margin-right: 40px;
+    margin-top: 70px;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: right;
+}
+#p {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    width: 300px;
+    float: right;
+    margin: 10px 10px 10px;
+    padding-right: 30px;
+}
+.quote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 27, 27);
+    margin: 50px 50px 50px 50px;
+    padding-left: 100px;
+    font-size: 40px;
+}
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    padding: 10px;
+    background-color: rgb(109, 108, 108);
+    box-shadow: 0 0 12px -2px black;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    margin-top: 100;
+}
+.media-link {
+    width: 55px;
+}
+
+#relax {
+    margin-left: 75px;
+    margin-right: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: right;
+    font-size: 40px;
+}
+section {
+    border-top: 2px solid rgb(109, 108, 108);
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+#bow {
+    width: 200px;
+    margin-right: 50px;
+}
+#PGO {
+    width: 200px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+main {
+    min-height: 100vh;
+    padding: 90px 25px 90px;
+}
+#dreams {
+    font-size: 75px;
+    border-bottom: 3px solid rgb(109, 108, 108);
+}
+h1 {
+    display: block;
+    text-align: center;
+}
+#shield {
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.dreams {
+    width: 500px;
+    margin: 2em auto;
+    padding: 1em;
+    display: block;
+    font-size: 20px;
+    background: gray;
+    text-align: center;
+}
+#dev {
+    width: 200px;
+    float: left;
+}
+#coffee {
+    width: 200px;
+}
