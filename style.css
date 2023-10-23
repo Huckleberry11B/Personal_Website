@@ -138,3 +138,32 @@ main {
     min-height: 100vh;
     padding: 90px 25px 90px;
 }
+#dreams {
+    font-size: 75px;
+    border-bottom: 3px solid rgb(109, 108, 108);
+}
+h1 {
+    display: block;
+    text-align: center;
+}
+#shield {
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.dreams {
+    width: 500px;
+    margin: 2em auto;
+    padding: 1em;
+    display: block;
+    font-size: 20px;
+    background: gray;
+    text-align: center;
+}
+#dev {
+    width: 200px;
+    float: left;
+}
+#coffee {
+    width: 200px;
+}
