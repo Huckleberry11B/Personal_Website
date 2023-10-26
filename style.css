@@ -19,7 +19,9 @@ body {
     margin-top: 55px;
     margin-left: 50px;
 }
-
+nav a:hover {
+    color: red !important;
+}
 header nav {
     padding: 5px;
     background-color: rgb(109, 108, 108);
@@ -32,13 +34,16 @@ header nav {
     position: fixed;
     left: 0;
     right: 0;
+    
 }
 header nav a {
     color: rgb(49, 2, 2);
     font-size: x-large;
     margin: 0 5px;
-    text-decoration: none;
-    
+    text-decoration: none;    
+}
+header nav a :nth-child(3n+0) {
+    color: aqua;
 }
 header nav h2 {
     height: 0;
@@ -47,7 +52,7 @@ header nav h2 {
 header nav li {
     float: left;
     margin-left: 30px;
-    margin-right: 50px;
+    margin-right: 100px;
     text-decoration: none;
 }
 .intro{
@@ -139,6 +144,7 @@ main {
     padding: 90px 25px 90px;
 }
 #dreams {
+    
     font-size: 75px;
     border-bottom: 3px solid rgb(109, 108, 108);
 }
@@ -152,6 +158,7 @@ h1 {
     margin-bottom: 10px;
 }
 .dreams {
+    box-sizing: content-box;
     width: 500px;
     margin: 2em auto;
     padding: 1em;
@@ -166,4 +173,24 @@ h1 {
 }
 #coffee {
     width: 200px;
+}
+.contact {
+    margin-left: 300px;
+    margin-top: 100px;
+    display: inline-block;
+    align-items: right;
+}
+#form {
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    font-style: italic;
+}
+#name {
+    margin-left: 100px;
+    
+}
+#email {
+    margin-left: 100px;
 }
