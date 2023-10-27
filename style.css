@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 150vh;
     background: linear-gradient(
         to right,
         rgb(54, 53, 53) 0%,
@@ -34,7 +34,6 @@ header nav {
     position: fixed;
     left: 0;
     right: 0;
-    
 }
 header nav a {
     color: rgb(49, 2, 2);
@@ -64,21 +63,25 @@ header nav li {
     align-items: right;
 }
 #p {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img {
     width: 300px;
     float: right;
-    margin: 10px 10px 10px;
+    margin: 20px 20px 20px;
     padding-right: 30px;
 }
 .quote{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(31, 27, 27);
-    margin: 50px 50px 50px 50px;
-    padding-left: 100px;
+    color: rgb(31, 27, 27); 
+    padding-left: 50px;
     font-size: 40px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
 }
 h3 {
     display: block;
@@ -117,6 +120,9 @@ footer {
     justify-content: space-around;
     align-items: right;
     font-size: 40px;
+}
+.about {
+    padding-right: 30px;
 }
 section {
     border-top: 2px solid rgb(109, 108, 108);
@@ -193,4 +199,60 @@ h1 {
 }
 #email {
     margin-left: 100px;
+}
+@media (width <= 600px) {
+    body {
+    background: red;  
+    display: flex;
+    padding-right: 30px; 
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-left: 40px;
+    }
+    .intro {
+        display: inline;
+        justify-content: center;
+        align-content: center;
+        font-size: 10px;
+    }
+    .banner {
+        font-size: x-small;
+        margin: 0;
+        padding: 0;
+    }
+    header nav a {
+        font-size: medium;
+        display: table-row;
+        justify-content: right;
+        padding: 0;
+        margin: 0;
+    }
+    #relax {
+        font-size: 25px;
+    }
+    .about {
+       padding: 0;
+       margin: 0;
+    }
+    .port {
+        display: inline;
+        justify-content: center;
+        align-content: center;
+        font-size: x-small;
+    }
+    .dreams {
+        display: inline;
+        background-color: red;
+        border: red;
+    }
+    .contact {
+        float: left;
+        margin-left: 100px;
+    }
+    #form {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
 }
